@@ -1,0 +1,80 @@
+* {margin:0; padding:0;}
+ol,ul,li { list-style:none;}
+a { text-decoration:none; } 
+img { vertical-align:top; border:none;}
+body {font-family: 'NanumSquare', sans-serif !important;  background-color: #FFF;}
+.clear:after { content:""; display:block; clear:both;}
+
+/*푸터*/
+#footer{background-color: #EDEEF0; height: 320px;}
+.f_center{text-align: center; font-size: 15px; font-weight: normal; letter-spacing: 0.3px; line-height: 22px; color: #999; padding-top: 80px; position: relative;}
+
+.footer_menu{width: 583px; margin: 0 auto;}
+.footer_menu li{float: left; font-size: 15px; line-height: 22px;}
+.footer_menu li a{color: #999;}
+.footer_menu li:after{content: ""; display: inline-block; width: 2px; height: 15px; background-color: #ccc; position: relative; top: 3px; margin: 0 10px;}
+.footer_menu li:last-child:after{display: none;}
+.footer_menu li a:hover{color: #555;}
+
+.sns{margin-top: 30px; position: absolute; left: 50%; transform: translateX(-50%);}
+.sns li{float: left; margin: 0 7px;}
+.sns li img{width: 40px; opacity: 0.4; transition: all 0.5s;}
+
+.sns li:hover img{opacity: 1;}
+
+.c_name{margin-top: 60px; display: none;}
+.c_number{display: none;}
+.e_mail{margin-top: 30px;}
+.c_{display: none;}
+
+.copyright{margin-top: 0px;}
+
+/*ios 테스트 버튼*/
+.ios_test{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.ios_test li{margin: 20px; width: 200px; height: 60px; line-height: 60px; background-color: #956bfc; border-radius: 5px;}
+.ios_test li a{display: block; height: 60px; color: #fff; text-align: center;}
+
+@media screen and (max-width:768px){
+    
+    .footer_menu{width: 314px;}
+    .footer_menu li{font-size: 15px; letter-spacing: -0px;}
+    .footer_menu li:after{height: 14px; top: 2px;}
+    .footer_menu li:nth-child(2):after{display: none;}
+    .footer_menu li:first-child{margin-left: 36px;}
+    
+}
+
+@media screen and (max-width:640px){
+    #footer{height: 360px;}
+    .f_center{padding-top: 90px;}
+    
+    .c_name{margin-top: 70px;}
+    .e_mail{margin-top: 20px;}
+    .sns{margin-top: 20px;}
+
+    .copyright{margin-top: 0px;}
+    
+}
+
+@media screen and (max-width:480px){
+    
+    .footer_menu{width: 295px;}
+    .footer_menu li{font-size: 14px; letter-spacing: -0px;}
+    
+    .footer_menu li:first-child{margin-left: 36px;}
+
+    .sns li img{width: 30px;}
+
+    
+}
+
+@media screen and (max-width:320px){
+
+    .f_center{font-size: 17px; line-height: 30px; padding-top: 70px;}
+
+    .sns{margin-top: 40px;}
+    .sns li img{width: 30px;}
+
+    .copyright{margin-top: 35px;}
+    
+}

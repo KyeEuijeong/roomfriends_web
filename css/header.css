@@ -1,0 +1,61 @@
+* {margin:0; padding:0;}
+ol,ul,li { list-style:none;}
+a { text-decoration:none; } 
+img { vertical-align:top; border:none;}
+body {font-family: 'NanumSquare', sans-serif !important;  background-color: #FFF;}
+.clear:after { content:""; display:block; clear:both;}
+
+/*pc*/
+#header{background-color: rgba(255, 255, 255, 0.4); border-bottom: solid 1px #fff; position: fixed; width: 100%; z-index: 99; height: 80px; transition: all 0.5s;}
+
+#header.on{height: 60px; line-height: 60px; background-color: #fff;}
+#header.on .gnb li{line-height: 60px;}
+#header.on .logo{padding-top: 16px;}
+
+.h_center{width: 1200px; margin: 0 auto;}
+.logo{float: left; width: 155px; transition: all 0.5s; padding-top: 25px;}
+.logo img{width: 100%;}
+
+.gnb{float: right;}
+.gnb li{float: left; margin-left: 50px; line-height: 80px; font-weight: bold; font-size: 17px; transition: all 0.5s;}
+.gnb li:hover a{color: #956bfc;}
+.gnb li a{color: #444444;}
+.gnb li.on a{color: #956bfc;}
+
+.bg{position: fixed; background-color: rgba(0, 0, 0, 0.65); left: 0; top: 0; width: 100%; height: 100%; z-index: 999; display: none;}
+
+/*모바일*/
+.menu_icon{width: 25px; position: absolute; top: 50%; transform: translateY(-50%); right: 15px; display: none;}
+
+.menu_bar{width: 300px; background-color: #fff; position: fixed; right: -300px; top: 0; height: 100%; z-index: 9999; overflow: auto;}
+.x{float: left; margin-top: 25px; margin-left: 22px;}
+.x img{width: 30px; opacity: 0.6;}
+.menu_list{margin-top: 100px;}
+
+.menu_list > li > a{display: block; height: 65px; color: #333; padding-left: 25px; line-height: 68px; font-weight: bolder; font-size: 18px; letter-spacing: 1px; border-bottom: solid 2px #eee;}
+
+
+@media screen and (max-width:1200px){
+    
+    .gnb{display: none;}
+    .menu_icon{display: block;}
+    
+    #header.on .logo{padding-top: 17px;}
+    .logo{padding-left: 15px; width: 150px; padding-top: 25px;}
+    
+}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:768px){}
+@media screen and (max-width:640px){
+    
+    #header{height: 70px;}
+    .logo{padding-top: 23px;}
+    
+    #header.on .logo{padding-top: 17px;}
+    .logo{width: 140px;}
+    
+    .menu_icon{width: 23px; right: 12px;}
+    
+}
+@media screen and (max-width:480px){}
+@media screen and (max-width:320px){}

@@ -1,0 +1,240 @@
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+* {margin:0; padding:0;}
+ol,ul,li { list-style:none;}
+a { text-decoration:none;} 
+img { vertical-align:top; border:none;}
+body {font-family: 'NanumSquare', sans-serif !important;  background-color: #FFF;}
+.clear:after { content:""; display:block; clear:both;}
+
+.main_wrap{background-color: #EFE7FF; height: 700px; padding-top: 193px; box-sizing: border-box; text-align: center; background-image: url(../img/bg_img.png); background-repeat: no-repeat; background-position: bottom center; background-size: 1920px;}
+
+.main_txt{color: #656565; line-height: 40px;}
+.main_txt p{font-size: 20px;}
+.main_txt h5{font-size: 25px;}
+.main_txt h5 span.black{color: #272727;}
+.main_txt h5 span.show{display: none;}
+
+.friends{margin-top: 90px;}
+.friends img{width: 650px;}
+
+.title{text-align: center; font-size: 35px; color: #a9a9a9; margin-top: 150px;}
+
+.character li{padding: 157px; border-bottom: solid 1px #e5e5e5;}
+.character li:last-child{border-bottom: 0;}
+
+.character li .center{width: 1105px; margin: 0 auto;}
+
+.circle{float: left; width: 350px; height: 350px; border-radius: 50%; background-color: #86dad7;}
+.txt_wrap{float: left; padding-top: 35px; margin-left: 160px;}
+.txt_wrap h4{font-size: 35px; color: #25bcb7; font-family: 'yg-jalnan';}
+.txt_wrap .exmn{font-size: 24px; color: #444444; line-height: 45px; margin-top: 28px;}
+.txt_wrap .insta_toon{font-size: 21px; margin-top: 28px;}
+.txt_wrap .insta_toon a{color: #25bcb7; padding-bottom: 6px;}
+.txt_wrap .insta_toon:hover a{border-bottom: solid 2px #86dad7;}
+
+.mongyi .circle{background-color: #86dad7; background-image: url(../img/modify/mongyi_web.png); background-size: 276px; background-repeat: no-repeat; background-position: 70px 100px;}
+.mongyi h4{color: #25bcb7;}
+.mongyi .insta_toon a{color: #25bcb7;}
+.mongyi .insta_toon:hover a{border-bottom: solid 2px #86dad7;}
+
+.roomi .circle{background-color: #ece5fe; background-image: url(../img/modify/rumi_web.png); background-size: 271px; background-repeat: no-repeat; background-position: 40px 80px;}
+.roomi h4{color: #a07dfb;}
+.roomi .insta_toon a{color: #a07dfb;}
+.roomi .insta_toon:hover a{border-bottom: solid 2px #a07dfb;}
+
+.alo .circle{background-color: #fdeeeb; background-image: url(../img/modify/alo_web.png); background-size: 278px; background-repeat: no-repeat; background-position: 37px 49px;}
+.alo h4{color: #f6aa9d;}
+.alo .insta_toon a{color: #f6aa9d;}
+.alo .insta_toon:hover a{border-bottom: solid 2px #f6aa9d;}
+
+.roompang .circle{background-color: #fdeeeb; background-image: url(../img/modify/roompang.png); background-size: 229px; background-repeat: no-repeat; background-position: 70px 143px;}
+.roompang h4{color: #f4c392;}
+.roompang .insta_toon a{color: #f4c392;}
+.roompang .insta_toon:hover a{border-bottom: solid 2px #f4c392;}
+
+.wootani .circle{background-color: #e8e2df; background-image: url(../img/modify/wutani.png); background-size: 258px; background-repeat: no-repeat; background-position: 47px 39px;}
+.wootani h4{color: #8e6f5f;}
+.wootani .insta_toon a{color: #8e6f5f;}
+.wootani .insta_toon:hover a{border-bottom: solid 2px #8e6f5f;}
+
+.banner{margin: 29px; background-color: #ece5fe; height: 290px; background-size: cover; padding-top: 34px; box-sizing: border-box;}
+
+.b_center {width: 680px; margin: 0 auto; position: relative; left: 100px;}
+.b_txtwrap{float: left; text-align: center;}
+.phone_img{float: left; margin-left: 65px; width: 227px;}
+.phone_img img{width: 100%;}
+
+.bt1{color: #303030; font-size: 35px; font-weight: bold; padding-top: 70px;}
+.bt2{color: #956bfc; font-size: 30px; font-weight: bold; margin-top: 25px;}
+
+@media screen and (max-width:1400px){
+
+    .main_wrap{height: 680px; background-size: 120%;}
+
+    .friends{margin-top: 90px;}
+    .friends img{width: 600px;}
+
+    .title{font-size: 33px; margin-top: 120px;}
+
+    .character li{padding: 157px 0;}
+
+    .character li .center{width: 965px;}
+
+    .circle{width: 300px; height: 300px;}
+    .txt_wrap{padding-top: 35px; margin-left: 120px;}
+    .txt_wrap h4{font-size: 30px;}
+    .txt_wrap .exmn{font-size: 22px; color: #444444; line-height: 40px; margin-top: 28px;}
+    .txt_wrap .insta_toon{font-size: 21px; margin-top: 28px;}
+
+    .mongyi .circle{background-size: 250px; background-position: 57px 80px;}
+
+    .roomi .circle{background-size: 235px; background-position: 34px 69px;}
+
+    .alo .circle{background-size: 245px; background-position: 28px 42px;}
+
+    .roompang .circle{background-size: 220px; background-position: 52px 103px;}
+
+    .wootani .circle{background-size: 228px; background-position: 39px 20px;}
+
+    .banner{margin: 20px; height: 290px; background-size: cover; padding-top: 34px; box-sizing: border-box;}
+
+    .b_center {width: 680px;}
+    .phone_img{margin-left: 65px; width: 227px;}
+
+    .bt1{color: #303030; font-size: 30px; padding-top: 78px;}
+    .bt2{color: #956bfc; font-size: 25px; margin-top: 25px;}
+    
+}
+
+@media screen and (max-width:1024px){
+
+    .friends{margin-top: 90px;}
+
+    .title{font-size: 31px; margin-top: 100px;}
+
+    .character li .center{width: 100%;}
+
+    .circle{float: none; margin: 0 auto;}
+    .txt_wrap{float: none; padding-top: 60px; margin-left: 0px; text-align: center;}
+
+    .banner{margin: 15px; height: 230px; background-size: cover; padding-top: 34px; box-sizing: border-box;}
+
+    .b_center {width: 580px; left: 90px;}
+    .phone_img{margin-left: 45px; width: 173px;}
+
+    .bt1{font-size: 25px; padding-top: 52px;}
+    .bt2{font-size: 24px; margin-top: 17px;}
+    
+}
+
+@media screen and (max-width:768px){
+    
+    .main_txt p{padding-top: 45px; font-size: 20px;}
+    .main_txt h5{font-size: 22px; letter-spacing: -0.5px;}
+    
+    .friends{margin-top: 100px;}
+    .friends img{width: 500px;}
+
+    .title{font-size: 30px; margin-top: 120px;}
+
+    .character li{padding: 110px 0;}
+
+    .character li .center{width: 100%;}
+
+    .circle{height: 220px; width: 220px;}
+    .txt_wrap h4{font-size: 25px;}
+    .txt_wrap .exmn{font-size: 19px; line-height: 35px; margin-top: 20px;}
+    .txt_wrap .insta_toon{font-size: 18px; margin-top: 20px;}
+
+    .mongyi .circle{background-size: 200px; background-position: 34px 60px;}
+
+    .roomi .circle{background-size: 180px; background-position: 21px 50px;}
+
+    .alo .circle{background-size: 190px; background-position: 16px 28px;}
+
+    .roompang .circle{background-size: 170px; background-position: 33px 68px;}
+
+    .wootani .circle{background-size: 185px; background-position: 18px 17px;}
+
+    .banner{margin: 10px; height: 230px; background-size: cover; padding-top: 34px; box-sizing: border-box;}
+
+    .b_center {width: 249px; left: 0px;}
+    .phone_img{display: none;}
+
+    .bt1{font-size: 23px; padding-top: 52px;}
+    .bt2{font-size: 22px; margin-top: 17px;}
+
+}
+
+@media screen and (max-width:640px){
+    
+    .main_wrap{height: 630px;}
+    
+    .main_txt p{padding-top: 45px; font-size: 20px;}
+    .main_txt h5{font-size: 20px; letter-spacing: -1px;}
+    
+    .friends{margin-top: 100px;}
+    .friends img{width: 400px;}
+
+    .title{font-size: 25px; margin-top: 95px;}
+
+    .character li{padding: 90px 0;}
+
+    .circle{height: 220px; width: 220px;}
+    .txt_wrap h4{font-size: 25px;}
+    .txt_wrap .exmn{font-size: 18px; line-height: 35px; margin-top: 20px; letter-spacing: -1px;}
+    .txt_wrap .insta_toon{font-size: 18px; margin-top: 20px;}
+
+    .banner{margin: 10px; height: 190px; padding-top: 70px;}
+
+    .b_center {width: 217px;}
+
+    .bt1{font-size: 20px; padding-top: 0px;}
+    .bt2{font-size: 19px; margin-top: 10px;}
+    
+}
+
+@media screen and (max-width:480px){
+    
+    .main_wrap{height: 500px; padding-top: 0px;}
+    
+    .main_txt{line-height: 33px}
+    .main_txt p{padding-top: 170px; font-size: 18px;}
+    .main_txt h5{font-size: 18px;}
+    .main_txt .delete{display: none;}
+    .main_txt h5 span.show{display: inline;}
+    
+    .friends{margin-top: 90px;}
+    .friends img{width: 330px;}
+
+    .title{font-size: 23px; margin-top: 85px;}
+
+    .character li{padding: 70px 0;}
+
+    .txt_wrap{padding-top: 30px;}
+    .txt_wrap h4{font-size: 22px;}
+    .txt_wrap .exmn{font-size: 17px; line-height: 30px; letter-spacing: -1px; width: 97%; margin: 0 auto; margin-top: 20px;}
+    .txt_wrap .exmn span{display: block;}
+    .txt_wrap .insta_toon{font-size 18px;}
+
+    .circle{height: 180px; width: 180px;}
+
+    .mongyi .circle{background-size: cover; background-image: url(../img/modify/mongyi_circle.png); background-position: center;}
+
+    .roomi .circle{background-size: cover; background-image: url(../img/modify/rumi_circle.png); background-position: center;}
+
+    .alo .circle{background-size: cover; background-image: url(../img/modify/alo_circle.png); background-position: center;}
+
+    .roompang .circle{background-size: cover; background-image: url(../img/modify/roompang_circle.png); background-position: center;}
+
+    .wootani .circle{background-size: cover; background-image: url(../img/modify/wutani_circle.png); background-position: center;}
+    
+    .banner{margin: 10px; height: 190px; padding-top: 70px;}
+
+    .b_center {width: 217px;}
+
+    .bt1{font-size: 19px;}
+    .bt2{font-size: 19px;}
+    
+}

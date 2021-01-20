@@ -1,0 +1,11 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {width: 740px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif;}
+p {font-size: 16px; line-height: 24px;}
+h2 {font-size: 25px;}
+h4 {font-size: 20px;}
+h5 {font-size: 19px; font-weight: normal; margin-bottom: 0;}
+
+@media screen and (max-width:768px){
+    body {width: 90%;}
+}

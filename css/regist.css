@@ -1,0 +1,320 @@
+* {margin:0; padding:0;}
+ol,ul,li { list-style:none;}
+a { text-decoration:none; } 
+img { vertical-align:top; border:none;}
+body {font-family: 'NanumSquare', sans-serif !important; background-color: #fbfbf4;}
+.clear:after { content:""; display:block; clear:both;}
+
+/*메인 이미지 화면*/
+.main_wrap{height: 700px; background-image: url(../img/regist/main_bg.png); padding-top: 200px; box-sizing: border-box; background-size: cover;}
+
+.main_txt_wrap{width: 1200px; margin: 0 auto; font-weight: bold; letter-spacing: 1px;}
+.main_txt_wrap p{color: #333333;} 
+.main_txt{font-size: 38px; line-height: 66px;}
+.sub_txt{font-size: 26px; line-height: 85px;}
+
+.resist_btn{width: 250px; height: 65px; background-color: #956bfc; margin-top: 19px; border-radius: 4px; transition: all 0.6s;}
+.resist_btn a{display: block; height: 65px; line-height: 65px; text-align: center; color: #fff; font-size: 24px;}
+
+.resist_btn:hover{background-color: #7b50e5;}
+
+/*앱 장점*/
+.app_intro{position: relative; padding-top: 187px; width: 1200px; margin: 0 auto;}
+
+.app_intro_list{position: absolute; top: 80px; left: 50%; transform: translateX(-50%);}
+.app_intro_list li{float: left; margin: 0 40px; font-size: 21px; font-weight: bold;}
+.app_intro_list li span{color: #272727; padding-bottom: 10px;}
+.app_intro_list li span.on{color: #956bfc; border-bottom: solid 3px #956bfc;}
+
+.app_intro .arrow li{position: absolute; top: 55%; display: none;}
+.app_intro .arrow li:first-child{left: -45px;}
+.app_intro .arrow li:last-child{right: -45px;}
+
+.ail{overflow: hidden; height: 556px;}
+.ail > li{display: none;}
+.ail > li.ai_list1{display: block;}
+.ail{width: 900px; margin: 0 auto; margin-top: 50px;}
+
+.app_img{float: left;}
+.app_txt{float: left; margin-left: 159px; font-size: 24px; color: #272727; padding-top: 170px;}
+.ai_list2 .app_txt{font-size: 22px; margin-left: 159px;}
+.ai_list2 .app_txt h5{font-size: 28px;}
+.app_txt h5{font-size: 28px; margin-bottom: 50px;}
+.app_txt p{line-height: 40px;}
+.ai_list2 .app_txt p{line-height: 38px;}
+
+/*이런 분들*/
+.rf_target{height: 691px; background-color: #eef3e9; background-image: url(../img/regist/green-leaves.gif); background-position: top right 90px; background-repeat: no-repeat;}
+.rft_center{width: 1200px; margin: 0 auto; padding-top: 142px; box-sizing: border-box; color: #272727;}
+
+.rf_target h4{font-size: 28px; margin-bottom: 110px; line-height: 55px;}
+.rf_target h4 span{font-size: 34px;}
+.rf_target h4 span.purple{color: #956bfc;}
+.rf_target h4:before{content: ""; display: block; width: 117px; height: 8px; background-color: #484848; margin-bottom: 20px;}
+
+.ppl_list li{float: left; margin-right: 158px;}
+.ppl_list li:last-child{margin-right: 0;}
+.pic{float: left; margin-right: 17px;}
+.name{font-size: 22px; font-weight: bold; float: left; margin-top: 12px;}
+.speech{font-size: 21px; line-height: 33px; margin-top: 30px;}
+
+/*sns 광고*/
+.ad_sns{background-image: url(../img/regist/sns_bg.png); height: 950px; text-align: center; padding-top: 160px; box-sizing: border-box; position: relative; background-size: cover;}
+.ad_insta img{width: 360px;}
+.ad_sns p{font-size: 28px; line-height: 48px; margin-top: 80px; color: #272727; font-weight: bold;}
+
+.sns_icon{position: absolute; top: 50%; left: 49%; transform: translate(-50%, -50%);}
+.sns_icon img{opacity: 0.75; width: 1100px;}
+
+/*sns 댓글 반응*/
+.react{height: 365px; width: 1200px; margin: 0 auto; position: relative;}
+.react .title{height: 60px; background-color: #f9ebe2; text-align: center; width: 240px; height: 58px; line-height: 58px; color: #838383; font-weight: bold; font-size: 20px; margin: 0 auto;}
+
+.react_box{overflow: hidden; width: 1200px; margin: 0 auto; margin-top: 80px; position: relative;}
+.react_list{width: 2500px; position: relative;}
+.react_list li{float: left; margin-right: 100px; color: #272727; line-height: 30px;}
+.react_list li h6{font-size: 21px;}
+.react_list li .sns_name{font-size: 18px; color: #ababab;}
+.react_list li .comment{font-size: 20px; margin-top: 23px;}
+.react_list li .comment span{font-weight: bold;}
+
+.mobile_react_list{width: 1250px; margin: 0 auto; position: relative; margin-top: 80px; display: none;}
+.mobile_react_list li{float: left; margin: 20px 5px; color: #272727; line-height: 30px; width: 210px; height: 140px;}
+.mobile_react_list li h6{font-size: 21px;}
+.mobile_react_list li .sns_name{font-size: 18px; color: #ababab;}
+.mobile_react_list li .comment{font-size: 20px; margin-top: 23px;}
+.mobile_react_list li .comment span{font-weight: bold;}
+
+.react .arrow li{position: absolute; top: 48%; text-align: center; width: 40px; height: 40px; border: solid 2px #ccc; border-radius: 50%; box-sizing: border-box; padding-top: 9px;}
+.react .arrow li img{width: 10px;}
+.react .arrow li:first-child{left: -100px;}
+.react .arrow li:last-child{right: -100px;}
+
+/*마지막*/
+.last{text-align: center; font-size: 34px; font-weight: bold; color: #272727; letter-spacing: 1px; padding-top: 290px; background-image: url(../img/regist/last_bg.png); height: 735px; box-sizing: border-box; background-size: cover;}
+
+.last p{opacity: 0; padding-top: 0px;}
+.last .btn{width: 240px; height: 65px; line-height: 65px; margin: 0 auto; background-color: #956bfc; font-size: 26px; margin-top: 50px; transition: all 0.8s; border-radius: 4px; opacity: 0;}
+.last .btn a{color: #fff; letter-spacing: 1px;}
+.last .btn:hover{background-color: #7b50e5;}
+
+@media screen and (max-width:1500px){
+    
+    /*메인 이미지 화면*/
+    .main_wrap{padding-top: 240px;}
+    
+    .main_txt_wrap{width: 90%;}
+    .main_txt{font-size: 35px; line-height: 60px;}
+    
+    /*이런 분들*/
+    .rft_center{width: 1100px;}
+    
+    .ppl_list li{margin-right: 108px;}
+
+    /*sns 댓글 반응*/
+    .react{height: 365px; width: 100%; display: none;}
+    .react .title{width: 200px; font-size: 19px;}
+
+}
+@media screen and (max-width:1024px){
+    
+    /*메인 이미지 화면*/
+    .main_wrap{padding-top: 240px;}
+    
+    .main_txt_wrap{width: 90%;}
+    .main_txt{font-size: 31px; line-height: 51px;}
+    .sub_txt{font-size: 23px; line-height: 80px;}
+
+    .resist_btn{width: 200px; height: 60px; margin-top: 12px;}
+    .resist_btn a{height: 60px; line-height: 60px; font-size: 21px;}
+
+    /*앱 장점*/
+    .app_intro{height: 530px; overflow: hidden;}
+    .app_intro{padding-top: 167px; width: 100%;}
+
+    .app_intro_list{width: 434px;}
+    .app_intro_list li{margin: 0 25px; font-size: 21px;}
+
+    .ail{height: 556px; width: 726px; margin-top: 50px;}
+
+    .app_img img{width: 300px;}
+    .app_txt{margin-left: 100px; font-size: 22px; padding-top: 170px;}
+    .ai_list2 .app_txt{font-size: 20px; letter-spacing: -0.5px; margin-left: 100px;}
+    .ai_list2 .app_txt h5{font-size: 26px;}
+    .app_txt h5{font-size: 27px; margin-bottom: 40px;}
+    .app_txt p{line-height: 36px;}
+    .ai_list2 .app_txt p{line-height: 34px;}
+
+    /*이런 분들*/
+    .rf_target{height: 1100px; background-position: top right 50px; background-size: 250px;}
+    .rft_center{width: 100%; padding-top: 100px; text-align: center}
+
+    .rf_target h4{font-size: 28px; margin-bottom: 30px; line-height: 55px;}
+    .rf_target h4 span{font-size: 34px;}
+    .rf_target h4:before{width: 127px; height: 7px; margin: 0 auto; margin-bottom: 20px;}
+
+    .profile{width: 246px; margin: 0 auto;}
+    .ppl_list li{float: none; margin-right: 0px; margin-top: 100px;}
+    
+    /*sns 광고*/
+    .ad_sns{height: 760px; padding-top: 120px;}
+    .ad_insta img{width: 300px;}
+    .ad_sns p{font-size: 24px; line-height: 43px; margin-top: 60px;}
+
+    .sns_icon{top: 45%; left: 48%;}
+    .sns_icon img{opacity: 0.6; width: 768px;}
+
+    /*sns 댓글 반응*/
+    
+    /*마지막*/
+    .last{font-size: 28px; letter-spacing: 1px; padding-top: 200px; height: 550px;}
+
+    .last .btn{width: 200px; height: 60px; line-height: 60px; margin: 0 auto; background-color: #956bfc; font-size: 22px; margin-top: 40px; transition: all 0.8s; border-radius: 4px;}
+
+}
+@media screen and (max-width:768px){
+    
+    /*메인 이미지 화면*/
+    .main_wrap{padding-top: 240px; height: 680px;}
+    
+    .main_txt_wrap{width: 90%; text-align: center;}
+    .main_txt{font-size: 31px; line-height: 51px;}
+    .sub_txt{font-size: 23px; line-height: 80px;}
+
+    .resist_btn{width: 200px; height: 60px; margin: 0 auto; margin-top: 12px;}
+    .resist_btn a{height: 60px; line-height: 60px; font-size: 21px;}
+
+    /*앱 장점*/
+    .app_intro{height: 530px; overflow: hidden; padding-top: 350px; width: 100%; position: relative;}
+
+    .app_intro_list{z-index: 99;}
+    .ail{width: 100%;}
+    
+    .app_img{float: none; width: 300px; margin: 0 auto;}
+    .app_img img{width: 100%;}
+    .app_txt{margin-left: 0px; position: absolute; top: 40px; left: 50%; transform: translateX(-50%); float: none; text-align: center; width: 100%;}
+    .ai_list2 .app_txt{margin-left: 0px;}
+    
+    /*이런 분들*/
+    .rf_target{background-position: top right 10px; background-size: 200px;}
+    
+    /*sns 광고*/
+    .ad_sns{height: 760px; padding-top: 110px;}
+    .ad_insta img{width: 300px;}
+    .ad_sns p{font-size: 22px; line-height: 40px; margin-top: 60px; letter-spacing: -0.5px;}
+
+    .sns_icon{display: none;}
+
+    /*sns 댓글 반응*/
+
+}
+@media screen and (max-width:640px){
+    
+    /*메인 이미지 화면*/
+    .main_wrap{padding-top: 220px; height: 640px;}
+    
+    .main_txt_wrap{width: 100%;}
+    .main_txt{font-size: 27px; line-height: 48px;}
+    .sub_txt{font-size: 20px; line-height: 80px;}
+
+    .resist_btn{width: 200px; height: 55px; margin-top: 12px;}
+    .resist_btn a{height: 55px; line-height: 55px; font-size: 19px;}
+
+    /*앱 장점*/
+    .app_intro{height: 450px; padding-top: 300px;}
+
+    .app_intro_list{width: 325px;}
+    .app_intro_list li{margin: 0 15px; font-size: 18px; letter-spacing: -0.5px;}
+    .app_intro_list li span{padding-bottom: 6px;}
+
+    .ail{height: 556px; width: 100%;}
+    
+    .app_img{width: 250px;}
+    .app_txt{top: 20px;}
+    .ai_list2 .app_txt h5{font-size: 21px;}
+    .app_txt h5{font-size: 22px; margin-bottom: 20px;}
+    .app_txt p{font-size: 18px; line-height: 28px;}
+    .ai_list2 .app_txt p{font-size: 18px; line-height: 28px;}
+
+    /*이런 분들*/
+    .rf_target{height: 950px; background-position: top right 0px; background-size: 150px;}
+    .rft_center{width: 100%; padding-top: 100px; text-align: center}
+
+    .rf_target h4{font-size: 22px; margin-bottom: 0px; line-height: 40px;}
+    .rf_target h4 span{font-size: 28px;}
+    .rf_target h4:before{width: 127px; height: 5px; margin: 0 auto; margin-bottom: 15px;}
+
+    .profile{width: 230px;}
+    .name{font-size: 20px;}
+    .speech{font-size: 18px; line-height: 28px;}
+    .ppl_list li{margin-top: 80px;}
+    
+    /*sns 광고*/
+    .ad_sns{height: 660px; padding-top: 80px;}
+    .ad_insta img{width: 250px;}
+    .ad_sns p{font-size: 19px; line-height: 33px; margin-top: 60px; letter-spacing: -0.5px;}
+    .ad_sns p span{display: block;}
+
+    /*sns 댓글 반응*/
+    
+    
+    /*마지막*/
+    .last{font-size: 22px; letter-spacing: 0px; padding-top: 160px; height: 450px;}
+
+    .last .btn{width: 180px; height: 55px; line-height: 55px; font-size: 19px; margin-top: 30px;}
+    
+}
+@media screen and (max-width:480px){
+    
+    /*메인 이미지 화면*/
+    .main_wrap{padding-top: 190px; height: 550px;}
+    
+    .main_txt{font-size: 23px; line-height: 40px; letter-spacing: 0;}
+    .sub_txt{font-size: 18px;}
+
+    .resist_btn{width: 180px; height: 50px; margin-top: 10px;}
+    .resist_btn a{height: 50px; line-height: 50px; font-size: 18px;}
+
+    /*앱 장점*/
+    .app_intro{height: 418px; padding-top: 280px;}
+
+    .app_intro_list{width: 311px;}
+    .app_intro_list li{font-size: 17px;}
+    .app_intro_list li span{padding-bottom: 6px;}
+
+    .ail{height: 556px;}
+    
+    .app_img{width: 230px;}
+    .app_txt{top: 12px;}
+    .ai_list2 .app_txt h5{font-size: 20px;}
+    .app_txt h5{font-size: 20px; margin-bottom: 20px;}
+    .app_txt p{font-size: 17px; line-height: 28px;}
+    .ai_list2 .app_txt p{font-size: 17px; line-height: 28px;}
+
+    /*이런 분들*/
+    .rf_target{height: 800px; background-position: top right 0px; background-size: 145px;}
+    .rft_center{padding-top: 80px;}
+
+    .rf_target h4{font-size: 19px; line-height: 35px; margin-bottom: 80px;}
+    .rf_target h4 span{font-size: 22px;}
+    .rf_target h4:before{width: 110px; height: 4px; margin-bottom: 10px;}
+
+    .profile{width: 230px;}
+    .profile img{width: 40px; position: relative; left: 8px; top: 1px;}
+    .name{font-size: 18px;}
+    .speech{font-size: 17px; line-height: 26px; margin-top: 20px;}
+    .ppl_list li{margin-top: 60px;}
+    
+    /*sns 광고*/
+    .ad_sns{height: 620px; padding-top: 80px;}
+    .ad_insta img{width: 250px;}
+    .ad_sns p{font-size: 18px; line-height: 30px; margin-top: 50px; letter-spacing: 0px;} 
+    
+    /*마지막*/    
+    .last{line-height: 35px; padding-top: 130px;}
+    .last p span{display: block;}
+
+    .last .btn{width: 170px; height: 50px; line-height: 50px; font-size: 18px; margin-top: 20px;}
+    
+}
+@media screen and (max-width:320px){}

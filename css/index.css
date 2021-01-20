@@ -1,0 +1,477 @@
+* {margin:0; padding:0;}
+ol,ul,li { list-style:none;}
+a { text-decoration:none; } 
+img { vertical-align:top; border:none;}
+body {font-family: 'NanumSquare', sans-serif !important;  background-color: #FFF;}
+.clear:after { content:""; display:block; clear:both;}
+
+/*메인이미지*/
+.main_wrap{height: 783px; background-image: url(../img/main_bg.png); padding-top: 180px; box-sizing: border-box; background-size: cover;}
+
+.main_center{width: 861px; margin: 0 auto;}
+
+.iphone_app{float: left; margin-right: 208px;}
+.main_wrap .txt_wrap{float: left; color: #272727; padding-top: 100px;}
+.main_wrap .txt_wrap h3{font-size: 45px; letter-spacing: 0.5px; margin-bottom: 45px;}
+.main_wrap .txt_wrap p{font-size: 25px; letter-spacing: 0.5px; line-height: 48px; margin-bottom: 45px;}
+.main_wrap .txt_wrap p span{font-weight: bold;}
+
+.btn_list li{float: left; margin-right: 10px; position: relative;}
+.btn_list li div{width: 201px; height: 65px; line-height: 61px; border-radius: 50px; text-align: center; background-color: rgba(255, 255, 255, 0.7); border: solid 1px #956bfc; box-sizing: border-box; position: relative; transition: all 0.6s;}
+.btn_list li div img{margin-right: 8px; width: 22px; position: relative; top: 18px;}
+.btn_list li div img.as{margin-right: 9px; width: 24px; top: 13px;}
+.btn_list li div .purple{opacity: 1; transition: all 0.6s;}
+.btn_list li div .white{opacity: 0; position: absolute; left: 24px; transition: all 0.6s;}
+.btn_list li div .white.as{left: 30px;}
+.btn_list li div a{display: block; height: ; font-weight: bolder; font-size: 21px; color: #956bfc; transition: all 0.6s;}
+
+.btn_list li div:hover{background-color: #956bfc;}
+.btn_list li div:hover a{color: #fff;}
+.btn_list li div:hover .purple{opacity: 0;}
+.btn_list li div:hover .white{display: block; opacity: 1;}
+
+.btn_mobile{display: none;}
+.btn_scroll{display: none;}
+/*
+.btn_list .basic{opacity: 1; transition: all 0.8s;}
+.btn_list .hover{position: absolute; top: 0; left: 0; opacity: 0; transition: all 0.8s;}
+*/
+
+.btn_list li:hover .basic{opacity: 0;}
+.btn_list li:hover .hover{opacity: 1;}
+
+/*아이콘 세트*/
+.icon{height: 762px; padding-top: 120px; box-sizing: border-box;}
+
+.s_tt{text-align: center; font-size: 30px; color: #8088ff;}
+
+.icon_set{width: 1095px; margin: 0 auto; margin-top: 125px;}
+.icon_set li{float: left; width: 365px; text-align: center;}
+
+.icon_set .tt{margin-top: 80px; font-weight: bold; font-size: 23px; color: #444444;}
+.icon_set .tt{margin-top: 80px; font-weight: bold; font-size: 23px; color: #444444;}
+.icon_set .tx{margin-top: 33px; font-size: 20px; line-height: 30px; color: #777777;}
+
+.icon_set li:nth-child(2) .tt{margin-top: 85px;}
+.icon_set li:nth-child(3) .tt{margin-top: 71px;}
+.icon_set li:nth-child(3) div{position: relative; top: -8px;}
+
+/*장점*/
+.merit{height: 776px; background-image: url(../img/mid-bg.png); padding-top: 146px; box-sizing: border-box;}
+.ccl_wrap{width: 1200px; margin: 0 auto; position: relative; height: 100%; background-size: cover;}
+
+.merit_btn{width: 352px; margin: 0 auto;}
+.merit_btn li{float: left; font-size: 25px; line-height: 55px;}
+.merit_btn li div{width: 176px; height: 55px; background-color: #e1e1e1; color: #9a9a9a; font-size: 25px; text-align: center;}
+.merit_btn li.on div{background-color: #956bfc; color: #fff;}
+
+.calculate{position: relative;}
+.calculate li{margin-top: 180px; display: none; position: absolute;}
+.calculate li:first-child{display: block; position: absolute; left: 0; top: 0;}
+.calculate div{float: left; text-align: center; color: #444444;}
+.m1{width: 158px;}
+.m3{width: 122px;}
+.calculate .tt{font-size: 21px; color: #999; font-weight: bold;}
+.calculate .tx{font-size: 37px; font-weight: bold; margin-top: 25px;}
+.calculate .cal{float: left; font-size: 56px; color: #999; margin: 0 93px; padding-top: 2px;}
+.calculate .ans{float: left; font-size: 37px; font-weight: bold; color: #444444; padding-top: 15px;}
+
+.left_arrow{position: absolute; left: -120px; top: 3%; display: none;}
+.right_arrow{position: absolute; right: -120px; top: 3%; display: none;}
+
+/*앱소개*/
+.intro1{height: 755px; background-image: url(../img/step1.png); box-sizing: border-box; padding-top: 124px; background-size: cover;}
+.intro_center{width: 1031px; margin: 0 auto;}
+
+.app1{float: left; width: 310px; height: 511px; background-color: #fff; box-shadow: 0px 9px 35px rgba(0, 0, 0,  0.2); background-image: url(../img/app1.png); background-position: 0 142px; transition: all 2s; position: relative; background-size: cover;}
+.app1_{width: 100%;}
+.app1:hover{background-position: 0 -3000px; transition: all 20s;}
+
+.hover_icon{position: absolute; left: 50%; transform: translate(-50%); width: 50px; animation-name:hov_icon; animation-duration:2s; animation-iteration-count:infinite;}
+.app1:hover .hover_icon{display: none;}
+
+@keyframes hov_icon { 
+
+    0% {bottom: 20px;}
+    
+    50% {bottom: 35px;}
+    
+    100% {bottom: 20px;}
+    
+}
+
+.intro1 .txt_wrap{float: left; margin-left: 170px; padding-top: 164px; width: 551px;}
+.step{font-size: 23px; letter-spacing: 1px; color: #8088ff; padding-bottom: 8px; border-bottom: solid 2px #8088ff; display: inline; font-weight: bold;}
+.intro_tt{font-size: 35px; color: #956bfc; margin-top: 40px;}
+.intro_tx{font-size: 24px; margin-top: 35px; color: #2c2c2c;}
+
+.intro2{height: 768px; background-image: url(../img/step2.png); box-sizing: border-box;  padding-top: 124px; background-size: cover;}
+.app2{float: left; width: 310px; height: 511px; background-color: #fff; box-shadow: 0px 9px 35px rgba(0, 0, 0, 0.2); background-image: url(../img/app2.png); background-size: cover;}
+.intro2 .txt_wrap{float: left; margin-left: 170px; padding-top: 164px; width: 551px;}
+
+.intro3{height: 760px; background-image: url(../img/step3.png); box-sizing: border-box; padding-top: 124px; background-size: cover;}
+.app3{float: left; width: 310px; height: 511px; background-color: #fff; box-shadow: 0px 9px 35px rgba(0, 0, 0, 0.2); background-image: url(../img/app3.png); background-size: cover; background-position: 0 -6px;}
+.intro3 .txt_wrap{float: left; margin-left: 170px; padding-top: 164px; width: 551px;}
+
+/*last section*/
+.download{height: 738px; background-image: url(../img/last.png); padding-top: 275px; box-sizing: border-box; background-size: cover;}
+.dw_tx{text-align: center; color: #666; font-size: 35px; font-weight: bold; padding-top: 0px; opacity: 0;}
+.down_btn{width: 506px; margin: 0 auto; margin-top: 50px; opacity: 0;}
+.down_btn li{margin: 0 15px; float: left; box-sizing: border-box; position: relative;}
+
+.down_btn li{float: left; margin-right: 10px; position: relative;}
+.down_btn li div{width: 228px; height: 69px; line-height: 65px; border-radius: 100px; text-align: center; background-color: rgba(255, 255, 255, 0.7); border: solid 1px #956bfc; box-sizing: border-box; position: relative; transition: all 0.6s;}
+.down_btn li div img{margin-right: 8px; width: 22px; position: relative; top: 19px;}
+.down_btn li div img.as{margin-right: 9px; width: 24px; top: 15px;}
+.down_btn li div .purple{opacity: 1; transition: all 0.6s;}
+.down_btn li div .white{opacity: 0; position: absolute; left: 38px; transition: all 0.6s;}
+.down_btn li div .white.as{left: 45px;}
+.down_btn li div a{display: block; height: ; font-weight: bolder; font-size: 21px; color: #956bfc; transition: all 0.6s;}
+
+.down_btn li div:hover{background-color: #956bfc;}
+.down_btn li div:hover a{color: #fff;}
+.down_btn li div:hover .purple{opacity: 0;}
+.down_btn li div:hover .white{display: block; opacity: 1;} 
+
+.dw_tx .purple{color: #956bfc;}
+.dw_tx .grey{color: #2c2c2c;}
+
+/*페이지 준비중입니다*/
+.prep{min-height: 300px;}
+.prep p{text-align: center; font-size: 20px; font-weight: bold; color: #ababab; margin-top: 250px;}
+
+@media screen and (max-width:1200px){
+    
+    /*메인이미지*/
+    .main_center{width: 800px;}
+
+    .iphone_app{width: 200px; margin-right: 147px;}
+    
+    /*아이콘 세트*/
+    .icon{height: 650px; padding-top: 100px;}
+
+    .s_tt{font-size: 25px;}
+
+    .icon_set{width: 900px; margin-top: 100px;}
+    .icon_set li{width: 300px;}
+
+    .icon_set li:nth-child(1) div img{width: 110px;}
+    .icon_set li:nth-child(2) div img{width: 138px; position: relative; left: 10px;}
+    .icon_set li:nth-child(3) div img{width: 120px;}
+    
+    .icon_set .tt{margin-top: 68px; font-size: 20px;}
+    .icon_set .tx{margin-top: 25px; font-size: 18px; line-height: 27px;}
+
+    .icon_set li:nth-child(2) .tt{margin-top: 65px;}
+    .icon_set li:nth-child(3) .tt{margin-top: 56px;}
+
+    /*장점*/
+    .merit{height: 500px; padding-top: 130px; box-sizing: border-box;}
+    .ccl_wrap{width: 100%;}
+
+    .merit_btn{width: 280px;}
+    .merit_btn li{font-size: 18px; line-height: 50px;}
+    .merit_btn li div{width: 140px; height: 50px; font-size: 18px;}
+
+    .calculate{width: 627px; margin: 0 auto;}
+    .calculate li{margin-top: 100px;}
+    .calculate li:first-child{left: 0; top: 0;}
+    .m1{width: 94px;}
+    .m3{width: 73px;}
+    .calculate .tt{font-size: 18px;}
+    .calculate .tx{font-size: 22px; margin-top: 15px;}
+    .calculate .cal{font-size: 37px; margin: 0 40px; padding-top: 10px;}
+    .calculate .ans{font-size: 22px; padding-top: 17px;}
+
+    /*앱소개*/
+    .intro_center{width: 950px; padding-left: 50px;}
+
+    .app1{width: 310px;}
+    .intro1 .txt_wrap{margin-left: 89px;}
+    
+    .app2{width: 310px;}
+    .intro2 .txt_wrap{float: left; margin-left: 89px; padding-top: 164px; width: 551px;}
+
+    .app3{width: 310px;}
+    .intro3 .txt_wrap{margin-left: 89px;}
+
+}
+
+@media screen and (max-width:1024px){
+    
+    /*메인이미지*/
+    .main_wrap{height: 700px;}
+
+    .main_center{width: 700px;}
+
+    .iphone_app{width: 200px; margin-right: 140px;}
+    .iphone_app img{width: 100%;}
+    .main_wrap .txt_wrap{padding-top: 100px;}
+    .main_wrap .txt_wrap h3{font-size: 30px; letter-spacing: 0.5px; margin-bottom: 25px;}
+    .main_wrap .txt_wrap p{font-size: 23px; letter-spacing: 0px; line-height: 40px; margin-bottom: 25px;}
+
+    .btn_list li div{width: 170px; height: 55px; line-height: 51px;}
+    .btn_list li div img{margin-right: 5px; width: 19px; top: 14px;}
+    .btn_list li div img.as{margin-right: 5px; width: 20px; top: 10px;}
+    .btn_list li div a{font-size: 19px;}
+    
+    /*아이콘 세트*/
+    .icon_set{width: 750px;}
+    .icon_set li{width: 250px;}
+
+    /*앱소개*/
+    .intro1{height: 950px; padding-top: 170px; background-size: cover; position: relative;}
+    .intro_center{width: 100%; padding-left: 0px;}
+
+    .app1{float: none; width: 300px; margin: 0 auto; height: 511px;}
+    
+    .intro1 .txt_wrap{float: none; margin-left: 0px; padding-top: 60px; width: 100%; text-align: center;}
+    .step{font-size: 23px; padding-bottom: 8px; position: absolute; top: 80px; left: 50%; transform: translate(-50%);}
+    .intro_tt{font-size: 30px; margin-top: 10px;}
+    .intro_tx{font-size: 24px; margin-top: 35px;}
+
+    .intro2{height: 950px; padding-top: 170px; background-size: cover; position: relative;}
+    .app2{float: none; width: 300px; margin: 0 auto; height: 511px; background-size: 100%;}
+    .intro2 .txt_wrap{float: none; margin-left: 0px; padding-top: 60px; width: 100%; text-align: center;}
+
+    .intro3{height: 950px; padding-top: 170px; background-size: cover; position: relative;}
+    .app3{float: none; width: 300px; margin: 0 auto; height: 511px; background-size: 100%;}
+    .intro3 .txt_wrap{float: none; margin-left: 0px; padding-top: 60px; width: 100%; text-align: center;}
+
+    /*last section*/
+    .download{height: 700px; padding-top: 256px;}
+    .dw_tx{font-size: 30px; padding-top: 0px;}
+    .down_btn{width: 460px; margin-top: 40px;}
+    
+    .down_btn li div{width: 200px; height: 65px; line-height: 61px;}
+    .down_btn li div img{margin-right: 8px; width: 22px; top: 17px;}
+    .down_btn li div img.as{margin-right: 9px; width: 24px; top: 13px;}
+
+    
+}
+@media screen and (max-width:768px){
+    
+    /*메인이미지*/
+    .main_wrap{height: 850px; background-image: url(../img/main_bg_mobile.png); padding-top: 130px;}
+
+    .main_center{width: 100%;}
+
+    .iphone_app{float: none; width: 180px; margin: 0 auto;}
+    .main_wrap .txt_wrap{float: none; padding-top: 50px; text-align: center;}
+    
+    .btn_list{width: 350px; margin:0 auto;}
+    .btn_list li:last-child{margin-right: 0;}
+    
+    .btn_list li div .white{left: 16px;}
+    .btn_list li div .white.as{left: 23px;}
+    
+    /*아이콘 세트*/
+    .icon{height: 1150px; padding-top: 70px;}
+
+    .s_tt{font-size: 23px;}
+
+    .icon_set{width: 100%; margin-top: 0px;}
+    .icon_set li{width: 100%; float: none; margin-top: 80px;}
+
+    
+    .icon_set .tt{margin-top: 40px; font-size: 20px;}
+    .icon_set .tx{margin-top: 10px; font-size: 19px;}
+
+    .icon_set li:nth-child(2) .tt{margin-top: 40px;}
+    .icon_set li:nth-child(3) .tt{margin-top: 40px;}
+    
+}
+@media screen and (max-width:640px){
+    
+    /*메인이미지*/
+    .main_wrap{height: 510px; padding-top: 110px;}
+
+    .iphone_app{width: 160px; overflow: hidden; height: 230px; display: none;}
+    .main_wrap .txt_wrap{padding-top: 75px;}
+    
+    .main_wrap .txt_wrap h3{font-size: 30px; letter-spacing: 0px; margin-bottom: 25px;}
+    .main_wrap .txt_wrap p{font-size: 22px; line-height: 37px; margin-bottom: 30px;}
+    
+    .btn_list{width: 330px; display: none;}
+
+    .btn_list li div{width: 160px; height: 52px; line-height: 49px; }
+    .btn_list li div img{margin-right: 3px; width: 18px; top: 13px;}
+    .btn_list li div img.as{margin-right: 3px; width: 19px; top:9px;}
+    .btn_list li div .white{left: 16px;}
+    .btn_list li div .white.as{left: 23px;}
+    .btn_list li div a{font-size: 18px;}
+    
+    .btn_mobile{width: 180px; height: 55px; background-color: #956bfc; border-radius: 4px; transition: all 0.6s; margin: 0 auto; display: block;}
+    .btn_mobile a{height: 55px; line-height: 55px; text-align: center; color: #fff; font-size: 19px; letter-spacing: 0.5px;}
+
+    .btn_mobile:hover{background-color: #7b50e5;}
+    
+    .btn_scroll{position: fixed; bottom: 0; width: 100%; height: 70px; background-color: #956bfc; display: none; z-index: 99;}
+    .btn_scroll a{height: 70px; line-height: 70px; text-align: center; color: #fff; font-size: 20px; letter-spacing: 0.5px;}
+
+    .main_wrap.on .btn_mobile{display: none;}
+    .main_wrap.on .btn_scroll{display: block;}
+    
+    /*앱소개*/
+    .intro1{height: 790px; padding-top: 140px;}
+
+    .app1{width: 260px; height: 428px;}
+    
+    .intro1 .txt_wrap{padding-top: 50px; width: 90%; margin: 0 auto;}
+    .step{font-size: 20px; padding-bottom: 5px; top: 55px; letter-spacing: 0px}
+    .intro_tt{font-size: 25px; margin-top: 10px;}
+    .intro_tx{font-size: 19px; line-height: 30px; margin-top: 20px;}
+
+    .intro2{height: 820px; padding-top: 140px;}
+    .app2{width: 260px; height: 428px;}
+    .intro2 .txt_wrap{padding-top: 50px; width: 90%; margin: 0 auto;}
+    .intro2 .txt_wrap span{display: block;}
+
+    .intro3{height: 780px; padding-top: 140px;}
+    .app3{width: 260px; height: 428px;}
+    .intro3 .txt_wrap{padding-top: 50px; width: 90%; margin: 0 auto;}
+
+    /*장점*/
+    .merit{height: 500px; padding-top: 170px;}
+    
+    .merit_btn{width: 280px;}
+    .merit_btn li{line-height: 45px;}
+    .merit_btn li div{width: 140px; height: 45px; font-size: 17px;}
+
+    .calculate{width: 433px; margin: 0 auto;}
+    .calculate li{margin-top: 60px;}
+    .m1{width: 77px;}
+    .m3{width: 66px;}
+    .calculate .tt{font-size: 18px;}
+    .calculate .tx{font-size: 18px; margin-top: 10px;}
+    .calculate .cal{font-size: 25px; margin: 0 20px; padding-top: 10px;}
+    .calculate .ans{font-size: 18px; padding-top: 13px;}
+
+    /*last section*/
+    .download{height: 500px; padding-top: 180px;}
+    .dw_tx{font-size: 26px; line-height: 44px; padding-top: 0px;}
+    .dw_tx .next_line{display: block;}
+    
+    .down_btn{width: 330px; margin-top: 30px; display: none;}
+    
+    .down_btn li{margin: 0; margin-right: 10px;}
+    .down_btn li:last-child{margin-right: 0px;}
+    .down_btn li div{width: 160px; height: 52px; line-height: 49px; }
+    .down_btn li div img{margin-right: 3px; width: 18px; top: 13px;}
+    .down_btn li div img.as{margin-right: 3px; width: 19px; top:9px;}
+    .down_btn li div .white{left: 16px;}
+    .down_btn li div .white.as{left: 23px;}
+    .down_btn li div a{font-size: 18px;}
+
+
+}
+
+@media screen and (max-width:480px){
+    
+    /*메인이미지*/
+    .main_wrap{height: 500px; padding-top: 130px; background-image: url(../img/main_bg_mobile2.png);}
+
+    .iphone_app{width: 160px;}
+    .main_wrap .txt_wrap{padding-top: 50px;}
+    
+    .main_wrap .txt_wrap h3{font-size: 28px; letter-spacing: 0px; margin-bottom: 25px;}
+    .main_wrap .txt_wrap p{font-size: 19px; line-height: 32px; margin-bottom: 25px;}
+    
+    .btn_list{width: 305px;}
+    .btn_list li{margin-right: 5px;}
+    .btn_list li div{width: 150px; height: 49px; line-height: 47px; }
+    .btn_list li div img{margin-right: 3px; width: 18px; top: 12px;}
+    .btn_list li div img.as{margin-right: 3px; width: 19px; top:9px;}
+    .btn_list li div .white{left: 16px;}
+    .btn_list li div .white.as{left: 21px;}
+    .btn_list li div a{font-size: 17px;}
+
+    /*아이콘 세트*/
+    .icon{height: 1060px; padding-top: 55px;}
+
+    .s_tt{font-size: 20px;}
+
+    .icon_set li{margin-top: 70px;}
+
+    
+    .icon_set .tt{font-size: 18px;}
+    .icon_set .tx{font-size: 18px;}
+    
+    /*앱소개*/
+    .intro1{height: 740px; padding-top: 140px;}
+
+    .app1{width: 240px; height: 395px;}
+    
+    .intro1 .txt_wrap{padding-top: 50px; width: 90%; margin: 0 auto;}
+    .step{font-size: 18px; padding-bottom: 5px; top: 55px; letter-spacing: 0px}
+    .intro_tt{font-size: 22px; margin-top: 10px;}
+    .intro_tx{font-size: 18px; letter-spacing: -0.5px; line-height: 30px; margin-top: 20px;}
+
+    .intro2{height: 760px; padding-top: 140px;}
+    .app2{width: 240px; height: 395px;}
+    .intro2 .txt_wrap{padding-top: 50px; width: 90%; margin: 0 auto;}
+    .intro2 .txt_wrap span{display: block;}
+
+    .intro3{height: 740px; padding-top: 140px;}
+    .app3{width: 240px; height: 395px;}
+    .intro3 .txt_wrap{padding-top: 50px; width: 90%; margin: 0 auto;}
+
+    
+    /*장점*/
+    .merit{height: 460px; padding-top: 100px;}
+    
+    .merit_btn{width: 280px;}
+    .merit_btn li{line-height: 45px;}
+    .merit_btn li div{width: 140px; height: 45px; font-size: 17px;}
+
+    .calculate{width: 308px; margin: 0 auto;}
+    .calculate li{margin-top: 80px;}
+    .m1{width: 77px;}
+    .m3{width: 66px;}
+    .calculate .tt{font-size: 18px;}
+    .calculate .tx{font-size: 18px; margin-top: 10px;}
+    .calculate .cal{font-size: 25px; margin: 0 20px; padding-top: 10px;}
+    
+    .calculate .cal.ecol{padding-top: 58px; padding-left: 55px;}
+    
+    .calculate .ans{font-size: 25px; padding-top: 60px;}
+    
+    /*last section*/
+    .download{padding-top: 190px;}
+    .dw_tx{font-size: 23px; line-height: 38px;}
+    
+    .down_btn{width: 305px;}
+    
+    .down_btn li{margin: 0; margin-right: 5px;}
+    .down_btn li:last-child{margin-right: 0px;}
+    .down_btn li div{width: 150px; height: 49px; line-height: 47px; }
+    .down_btn li div img{margin-right: 3px; width: 18px; top: 13px;}
+    .down_btn li div img.as{margin-right: 3px; width: 19px; top:9px;}
+    .down_btn li div .white{left: 16px;}
+    .down_btn li div .white.as{left: 23px;}
+    .down_btn li div a{font-size: 17px;}
+    
+}
+
+@media screen and (max-width:340px){
+    
+    /*메인이미지*/
+    .main_wrap{height: 790px; padding-top: 110px;}
+
+    .iphone_app{width: 160px;}
+    .main_wrap .txt_wrap{padding-top: 50px;}
+    
+    .main_wrap .txt_wrap h3{font-size: 25px;}
+    .main_wrap .txt_wrap p{font-size: 20px; line-height: 33px;}
+    
+    .btn_list{width: 160px;}
+    .btn_list li{margin-bottom: 10px;}
+
+    /*last section*/
+    .dw_tx{font-size: 24px; line-height: 40px;}
+    
+    .down_btn{width: 160px; margin-top: 0px;}
+    
+    .down_btn li{margin-top: 10px;}
+
+}
